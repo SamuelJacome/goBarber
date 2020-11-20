@@ -8,7 +8,8 @@
       "plugin:prettier/recommended",
       "plugin:react/recommended",
       "plugin:@typescript-eslint/recommended",
-      "airbnb"
+      "airbnb",
+      "eslint:recommended", "plugin:react/recommended"
   ],
   "globals": {
       "__DEV__": "readonly",
@@ -31,6 +32,7 @@
       "@typescript-eslint"
   ],
   "rules": {
+
       "prettier/prettier": ["error", {"singleQuote": true, "parser": "flow"}],
       "no-unused-expressions": "off",
       "react/jsx-one-expression-per-line": "off",
